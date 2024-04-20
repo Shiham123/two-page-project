@@ -1,5 +1,11 @@
-const App = () => {
-  return <div>this is two page project</div>;
-};
+import CarDetails from "./components/CarDetails"
 
-export default App;
+const App = () => {
+	return (
+		<div>
+			<CarDetails />
+		</div>
+	)
+}
+
+export default App
