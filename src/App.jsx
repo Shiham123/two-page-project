@@ -1,8 +1,8 @@
-import CarDetails from "./components/CarDetails"
+import CarDetails from "./components/CarDetails/CarDetails"
 
 const App = () => {
 	return (
-		<div>
+		<div className="container mx-auto">
 			<CarDetails />
 		</div>
 	)
