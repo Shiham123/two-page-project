@@ -1,4 +1,6 @@
 import Header from "../../../Shared/Header"
+import CarDetail from "./CarDetail"
+import CarImportant from "./CarImportant"
 import HighLight from "./HighLight"
 
 const LeftSide = () => {
@@ -13,6 +15,11 @@ const LeftSide = () => {
 			</div>
 
 			<HighLight highLightText="Free cancellation up to 48 hours before pick-up" />
+			<CarDetail />
+
+			<hr className="my-14" />
+			<CarImportant />
+			<hr className="my-14" />
 		</div>
 	)
 }
