@@ -1,6 +1,9 @@
+import {useState} from "react"
 import {FaTimes, FaCheckCircle} from "react-icons/fa"
+import {MdKeyboardArrowDown, MdKeyboardArrowUp} from "react-icons/md"
 
 const ProtectionTable = () => {
+	const [isModalOpen, setIsModalOpen] = useState(false)
 	return (
 		<>
 			<div className="overflow-x-auto py-12 px-4">
@@ -18,8 +21,30 @@ const ProtectionTable = () => {
 					<tbody>
 						{/* row 1 */}
 						<tr>
-							<td className="font-Poppins text-[17px] text-blue-500 cursor-pointer">
-								The car&apos;s excess
+							<td>
+								<div
+									className="flex items-center gap-4"
+									onClick={() => setIsModalOpen(!isModalOpen)}
+								>
+									{isModalOpen ? (
+										<MdKeyboardArrowUp size={30} color="#3b82f6" />
+									) : (
+										<MdKeyboardArrowDown size={30} color="#3b82f6" />
+									)}
+									<h1 className="font-Poppins text-[17px] text-blue-500 cursor-pointer">
+										The car&apos;s excess
+									</h1>
+								</div>
+
+								{/* para */}
+								{isModalOpen && (
+									<p className="font-poppins text-[17px] w-2/3 leading-5">
+										Your car comes with standard damage cover (CDW) with an excess of ₹133,595.73
+										and Theft Protection (TP) with an excess of ₹133,595.73. If the bodywork is
+										damaged or the car is stolen, the car hire company could charge you up to the
+										excess amount – but Rentalcover.com will refund you.
+									</p>
+								)}
 							</td>
 							<td>
 								<FaTimes />
@@ -30,8 +55,29 @@ const ProtectionTable = () => {
 						</tr>
 						{/* row 2 */}
 						<tr>
-							<td className="font-Poppins text-[17px] text-blue-500 cursor-pointer">
-								Windows, mirrors, wheels & tyres
+							<td>
+								<div
+									className="flex items-center gap-4"
+									onClick={() => setIsModalOpen(!isModalOpen)}
+								>
+									{isModalOpen ? (
+										<MdKeyboardArrowUp size={30} color="#3b82f6" />
+									) : (
+										<MdKeyboardArrowDown size={30} color="#3b82f6" />
+									)}
+									<h1 className="font-Poppins text-[17px] text-blue-500 cursor-pointer">
+										Windows, mirrors, wheels & tyres
+									</h1>
+								</div>
+
+								{/* para */}
+								{isModalOpen && (
+									<p className="font-poppins text-[17px] w-2/3 leading-5">
+										Protection products often have exclusions, but Full Protection covers every
+										exterior and mechanical part of your car, from wheels and windows to engine,
+										roof & undercarriage.
+									</p>
+								)}
 							</td>
 							<td>
 								<FaTimes />
@@ -42,8 +88,28 @@ const ProtectionTable = () => {
 						</tr>
 						{/* row 3 */}
 						<tr>
-							<td className="font-Poppins text-[17px] text-blue-500 cursor-pointer">
-								Administration and breakdown charges
+							<td>
+								<div
+									className="flex items-center gap-4"
+									onClick={() => setIsModalOpen(!isModalOpen)}
+								>
+									{isModalOpen ? (
+										<MdKeyboardArrowUp size={30} color="#3b82f6" />
+									) : (
+										<MdKeyboardArrowDown size={30} color="#3b82f6" />
+									)}
+									<h1 className="font-Poppins text-[17px] text-blue-500 cursor-pointer">
+										Administration and breakdown charges
+									</h1>
+								</div>
+
+								{/* para */}
+								{isModalOpen && (
+									<p className="font-poppins text-[17px] w-2/3 leading-5">
+										If you break down, lose your key(s) or lock yourself out, Rentalcover.com will
+										refund any call-out charges, towing fees and key replacement costs.
+									</p>
+								)}
 							</td>
 							<td>
 								<FaTimes />
