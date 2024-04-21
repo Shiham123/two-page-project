@@ -7,7 +7,7 @@ const LeftSideProtection = () => {
 	return (
 		<div className="col-span-6 my-8 p-4">
 			<Header headerText="Protection options" paraText="Next… Checkout" />
-			<HeadingProgressBar />
+			<HeadingProgressBar step="two" />
 
 			<h1 className="font-Poppins text-xl font-bold tracking-wide">
 				Protection... <span className="text-[#068323]">for peace of mind</span>

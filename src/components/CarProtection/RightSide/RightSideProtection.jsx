@@ -14,7 +14,11 @@ const RightSideProtection = () => {
 				<Timeline />
 			</div>
 
-			<RightSideHighLight headingText="Fast and reliable" paraText="Over 99% of claims paid out" />
+			<RightSideHighLight
+				isRightSide="true"
+				headingText="Fast and reliable"
+				paraText="Over 99% of claims paid out"
+			/>
 			<PriceBreakDown />
 		</div>
 	)
