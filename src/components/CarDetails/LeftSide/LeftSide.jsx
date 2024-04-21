@@ -1,7 +1,10 @@
 import Header from "../../../Shared/Header"
+import CarChoice from "./CarChoice"
 import CarDetail from "./CarDetail"
 import CarImportant from "./CarImportant"
+import ExtraDetails from "./ExtraDetails"
 import HighLight from "./HighLight"
+import PriceDetails from "./PriceDetails"
 
 const LeftSide = () => {
 	return (
@@ -20,6 +23,13 @@ const LeftSide = () => {
 			<hr className="my-14" />
 			<CarImportant />
 			<hr className="my-14" />
+
+			<CarChoice />
+			<hr className="my-14" />
+			<PriceDetails />
+
+			<hr className="my-14" />
+			<ExtraDetails />
 		</div>
 	)
 }
