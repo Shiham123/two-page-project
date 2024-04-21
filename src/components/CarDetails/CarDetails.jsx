@@ -3,7 +3,7 @@ import RightSide from "./RightSide/RightSide"
 
 const CarDetails = () => {
 	return (
-		<div>
+		<div className="grid grid-cols-8 gap-8">
 			<LeftSide />
 			<RightSide />
 		</div>
