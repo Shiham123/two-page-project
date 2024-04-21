@@ -1,6 +1,7 @@
 import Header from "../../../Shared/Header"
 import HeadingProgressBar from "../../../Shared/HeadingProgressBar"
 import HighLight from "../../CarDetails/LeftSide/HighLight"
+import ProtectionTable from "./ProtectionTable"
 
 const LeftSideProtection = () => {
 	return (
@@ -32,6 +33,8 @@ const LeftSideProtection = () => {
 			<a href="" className="cursor-pointer text-blue-600 hover:underline hover:text-blue-500">
 				Protection Terms
 			</a>
+
+			<ProtectionTable />
 		</div>
 	)
 }
