@@ -7,7 +7,7 @@ const CarChoice = () => {
 	return (
 		<div>
 			<SubHeading subHeadingText="Great Choice!" />
-			<section className="grid grid-cols-12">
+			<section className="grid grid-cols-12 xs:flex xs:flex-col sm:flex sm:flex-col">
 				<div className="col-span-5 my-10">
 					<CarChoiceDetails carChoiceText="Customer rating: 7.9 / 10" />
 					<CarChoiceDetails carChoiceText="Most popular fuel policy" />

@@ -5,9 +5,9 @@ import CarLogo from "../../../assets/62_logo_200.png"
 
 const CarImportant = () => {
 	return (
-		<div className="flex justify-between items-center">
+		<div className="flex sm:flex-col xs:flex-col justify-between items-center">
 			{/* one */}
-			<div className="flex items-center w-full gap-2">
+			<div className="flex sm:flex-col xs:flex-col items-center w-full gap-2">
 				<img src={CarLogo} width={150} height={150} alt="" />
 				<CarBadge badgeText="7.9" />
 				<div>
@@ -16,7 +16,7 @@ const CarImportant = () => {
 				</div>
 			</div>
 			{/* two */}
-			<div className="flex justify-center items-center w-1/3 gap-2">
+			<div className="flex xs:w-full justify-center items-center w-1/3 gap-2">
 				<CiCircleInfo color="#1879ca" size={30} />
 				<a href="" className="text-blue-500 font-Poppins font-semibold">
 					Important Info

@@ -4,7 +4,7 @@ const TimelineItem = () => {
 	return (
 		<ul className="timeline timeline-vertical">
 			{/* one */}
-			<li>
+			<li className="xl:pl-8 lg:pl-20">
 				<div className="timeline-middle">
 					<FaRegCircleCheck />
 				</div>
@@ -20,7 +20,7 @@ const TimelineItem = () => {
 				<hr />
 			</li>
 			{/* two */}
-			<li>
+			<li className="xl:pl-8 lg:pl-20">
 				<hr />
 				<div className="timeline-middle ">
 					<FaRegCircleCheck />
