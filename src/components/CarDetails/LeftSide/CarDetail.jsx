@@ -14,6 +14,7 @@ const CarDetail = () => {
 					<img src={CarImg} alt="Cars" width={300} height={300} />
 				</div>
 			</div>
+
 			<div className="col-span-4 mt-14">
 				<CarBadge badgeText="top pick" />
 				<h1 className="font-Poppins font-bold text-xl py-4">
@@ -21,7 +22,7 @@ const CarDetail = () => {
 				</h1>
 			</div>
 
-			{/* --------- */}
+			{/* ---- car details----- */}
 			<div className="col-start-3 col-span-3 -my-14">
 				<div className="flex gap-8">
 					{/* first section */}

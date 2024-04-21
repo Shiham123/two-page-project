@@ -8,7 +8,7 @@ const TimelineItem = () => {
 				<div className="timeline-middle">
 					<FaRegCircleCheck />
 				</div>
-				<div className="timeline-end timeline-box">
+				<div className="timeline-end timeline-box border-none">
 					<div className="flex flex-col gap-4">
 						<p className="font-Poppins font-light text-sm">Sat, 27 Apr · 10:00</p>
 						<h1 className="font-Poppins font-bold text-sm">Paris Charles de Gaulle Airport</h1>
@@ -22,10 +22,10 @@ const TimelineItem = () => {
 			{/* two */}
 			<li>
 				<hr />
-				<div className="timeline-middle">
+				<div className="timeline-middle ">
 					<FaRegCircleCheck />
 				</div>
-				<div className="timeline-end timeline-box">
+				<div className="timeline-end timeline-box border-none">
 					<div className="flex flex-col gap-4">
 						<p className="font-Poppins font-light text-sm">Sat, 27 Apr · 10:00</p>
 						<h1 className="font-Poppins font-bold text-sm">Paris Charles de Gaulle Airport</h1>

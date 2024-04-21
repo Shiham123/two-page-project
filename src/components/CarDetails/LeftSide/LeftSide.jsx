@@ -8,7 +8,7 @@ import PriceDetails from "./PriceDetails"
 
 const LeftSide = () => {
 	return (
-		<div className="col-span-6 my-8">
+		<div className="col-span-6 my-8 p-4">
 			<Header headerText="Your deal" paraText="Next… Protection options" />
 
 			<div className="flex gap-3 my-4">
