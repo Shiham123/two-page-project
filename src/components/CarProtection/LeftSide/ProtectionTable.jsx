@@ -42,7 +42,7 @@ const ProtectionTable = () => {
 
 								{/* para */}
 								{isModalOpen[0] && (
-									<p className="font-poppins text-[17px] w-2/3 leading-5">
+									<p className="font-poppins text-[17px] w-2/3 leading-5 pl-12">
 										Your car comes with standard damage cover (CDW) with an excess of ₹133,595.73
 										and Theft Protection (TP) with an excess of ₹133,595.73. If the bodywork is
 										damaged or the car is stolen, the car hire company could charge you up to the
@@ -73,7 +73,7 @@ const ProtectionTable = () => {
 
 								{/* para */}
 								{isModalOpen[1] && (
-									<p className="font-poppins text-[17px] w-2/3 leading-5">
+									<p className="font-poppins text-[17px] w-2/3 leading-5 pl-12">
 										Protection products often have exclusions, but Full Protection covers every
 										exterior and mechanical part of your car, from wheels and windows to engine,
 										roof & undercarriage.
@@ -103,7 +103,7 @@ const ProtectionTable = () => {
 
 								{/* para */}
 								{isModalOpen[2] && (
-									<p className="font-poppins text-[17px] w-2/3 leading-5">
+									<p className="font-poppins text-[17px] w-2/3 leading-5 pl-12">
 										If you break down, lose your key(s) or lock yourself out, Rentalcover.com will
 										refund any call-out charges, towing fees and key replacement costs.
 									</p>

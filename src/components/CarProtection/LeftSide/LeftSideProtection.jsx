@@ -14,7 +14,7 @@ const LeftSideProtection = () => {
 			</h1>
 
 			<HighLight
-				isProtectionPage="true"
+				isProtectionPage="one"
 				hightLightSpan="FREE cancellation"
 				highLightText="Full refund if you cancel your plan anytime before pick-up"
 			/>
@@ -35,6 +35,12 @@ const LeftSideProtection = () => {
 			</a>
 
 			<ProtectionTable />
+
+			<HighLight
+				isProtectionPage="two"
+				hightLightSpan="Please note:"
+				highLightText="Your own car insurance is unlikely to cover hire cars."
+			/>
 		</div>
 	)
 }

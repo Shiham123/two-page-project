@@ -1,5 +1,6 @@
 import {useState} from "react"
 import {IoIosArrowDown, IoIosArrowUp} from "react-icons/io"
+import RightSideHighLight from "../../../Shared/RightSideHighLight"
 
 const PriceBreakDown = () => {
 	const [isOpen, setIsOpen] = useState(false)
@@ -21,15 +22,11 @@ const PriceBreakDown = () => {
 				</div>
 			</div>
 
-			<div className="bg-[#e9ffef] p-4 my-4 border-[1px] border-black rounded-lg flex flex-col items-center gap-4">
-				<h2 className="font-Poppins text-[17px] text-black font-semibold">
-					This car is costing you just ₹7,678.24 – a real bargain…
-				</h2>
-				<p className="font-Poppins text-[17px] text-black ">
-					At that time of year, the average small car at Paris Charles de Gaulle Airport costs
-					₹8,541.06!
-				</p>
-			</div>
+			<RightSideHighLight
+				headingText="This car is costing you just ₹7,678.24 – a real bargain…"
+				paraText="	At that time of year, the average small car at Paris Charles de Gaulle Airport costs
+				₹8,541.06!"
+			/>
 
 			{/* accordion */}
 
