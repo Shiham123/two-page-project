@@ -1,3 +1,4 @@
+import PriceBreakDown from "./PriceBreakDown"
 import Timeline from "./Timeline"
 
 const RightSide = () => {
@@ -8,6 +9,7 @@ const RightSide = () => {
 
 				<Timeline />
 			</div>
+			<PriceBreakDown />
 		</div>
 	)
 }
