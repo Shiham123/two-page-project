@@ -1,5 +1,11 @@
+import CarProtection from "../components/CarProtection/CarProtection"
+
 const ProtectionPage = () => {
-	return <div>this is protection page</div>
+	return (
+		<div className="container mx-auto">
+			<CarProtection />
+		</div>
+	)
 }
 
 export default ProtectionPage
