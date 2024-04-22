@@ -1,6 +1,7 @@
 import Header from "../../../Shared/Header"
 import HeadingProgressBar from "../../../Shared/HeadingProgressBar"
 import HighLight from "../../CarDetails/LeftSide/HighLight"
+import LeftSideButton from "./LeftSideButton"
 import ProtectionTable from "./ProtectionTable"
 
 const LeftSideProtection = () => {
@@ -41,6 +42,8 @@ const LeftSideProtection = () => {
 				hightLightSpan="Please note:"
 				highLightText="Your own car insurance is unlikely to cover hire cars."
 			/>
+
+			<LeftSideButton />
 		</div>
 	)
 }
